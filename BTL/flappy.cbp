@@ -38,7 +38,6 @@
 		<Unit filename="exception.h" />
 		<Unit filename="font.cpp" />
 		<Unit filename="font.h" />
-		<Unit filename="gamestate.h" />
 		<Unit filename="intro.cpp" />
 		<Unit filename="intro.h" />
 		<Unit filename="level.cpp" />

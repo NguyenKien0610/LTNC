@@ -5,7 +5,7 @@
 #include <cmath>
 #include <string>
 
-#define SCROLLING_SPEED 1
+#define SCROLLING_SPEED 3
 
 bool check_collision(const Player& pl, const SDL_Rect& rec)
 {

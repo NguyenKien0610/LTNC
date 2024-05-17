@@ -1,7 +1,7 @@
 #ifndef DEFS_H
 #define DEFS_H
 
-#define WINDOW_TITLE "Flappy Bird Remake"
+#define WINDOW_TITLE "Flappy Bird"
 #define WINDOW_ICON_PATH "./flappy_assets/flappy.png"
 
 #define BACKGROUND_INTRO "./flappy_assets/clouds.jpg"

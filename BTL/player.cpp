@@ -4,10 +4,10 @@
 #include "SDL.h"
 
 #define MAX_ANGLE 80.0
-#define GRAVITY_ACCEL 5.0
+#define GRAVITY_ACCEL 4.5
 
 Player::Player(SDL_Renderer* renderer, double x, double y)
-    : texture{renderer}, isDead{false}, posX{x}, posY{y}, radius{0.0}, vertSpeed{0.0}, vertAccel{0.3}
+    : texture{renderer}, isDead{false}, posX{x}, posY{y}, radius{0.0}, vertSpeed{0.0}, vertAccel{0.2}
 {
     texture.loadFromFile(BIRD_IMAGE);
     radius = texture.getWidth() / 2;
@@ -27,7 +27,7 @@ void Player::apply_forces()
 
 void Player::render()
 {
-    double angle = vertSpeed * 5.0;
+    double angle = vertSpeed * 4.5;
     if (angle > MAX_ANGLE) angle = MAX_ANGLE;
 
     texture.render(static_cast<int>(posX - radius), static_cast<int>(posY - radius), nullptr, angle);

@@ -1,4 +1,3 @@
-// Visit http://lazyfoo.net/tutorials/SDL/index.php
 #ifndef TEXTURE_H
 #define TEXTURE_H
 

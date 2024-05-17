@@ -13,7 +13,7 @@ class Pipe {
 public:
     bool left_behind = false;
 
-    void init(Texture* texturePtr, int posX, int pass_height=100, int pass_size=120);
+    void init(Texture* texturePtr, int posX, int pass_height=100, int pass_size=200);
     void render();
     void set_pos(int posX);
     void set_height(int pass_height);

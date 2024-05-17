@@ -17,7 +17,7 @@ Intro::Intro(const MainWindow& _win)
 
 void Intro::logic()
 {
-    background.scroll(3);
+    background.scroll(2);
 }
 
 void Intro::render()

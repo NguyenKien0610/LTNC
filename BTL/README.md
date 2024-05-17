@@ -1,13 +1,5 @@
-# flappy
-Flappy Bird Clone simplified from https://github.com/phoemur/flappy
-
-# Requirements
-  - C++11
-
-  - SDL2
-
-  - SDL2_image
-
-  - SDL2_ttf
-
-  - SDL2_mixer
+1) Họ và tên: Nguyễn Xuân Kiên
+   MSSV: 23021591
+2) Game Flappy Bird, giúp chú chim bay qua các khe giữa các cột ống
+3) Ngưỡng 4-6 điểm
+4) Em đã làm theo hướng dẫn online hàng tuần và đẩy lên github ạ
